@@ -1,0 +1,58 @@
+.section-features{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.features-list{
+    display: flex;
+    gap: 30px;
+    &-title{
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: $menu-nav;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    &-desc{
+        font-weight: 400;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: $address;
+    }
+    &-item-first::before{
+        content: "";
+        width: 270px;
+        height: 120px;
+        border-radius: 4px;
+        background-image: url('../../images/features-list-imgfirst.png');
+        display: inline-block;
+    }
+    &-item-second::before{
+        content: "";
+        width: 270px;
+        height: 120px;
+        border-radius: 4px;
+        background-image: url('../../images/features-list-imgsecond.png');
+        display: inline-block;
+    }    
+    &-item-third::before{
+        content: "";
+        width: 270px;
+        height: 120px;
+        border-radius: 4px;
+        background-image: url('../../images/features-list-imgthird.png');
+        display: inline-block;
+    }
+    &-item-fourth::before{
+        content: "";
+        width: 270px;
+        height: 120px;
+        border-radius: 4px;
+        background-image: url('../../images/features-list-imgfourth.png');
+        display: inline-block;
+    }    
+}
+
