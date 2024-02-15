@@ -575,8 +575,8 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: rgb(47, 48, 58);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/sectionhero-background.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/sectionhero-background.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/sectionhero-background.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/sectionhero-background.jpg);
 }
 .section-hero-title {
   font-size: 44px;
@@ -621,7 +621,7 @@ body {
   width: 270px;
   height: 120px;
   border-radius: 4px;
-  background-image: url("../../images/features-list-imgfirst.png");
+  background-image: url("../images/features-list-imgfirst.png");
   display: inline-block;
 }
 .features-list-item-second::before {
@@ -629,7 +629,7 @@ body {
   width: 270px;
   height: 120px;
   border-radius: 4px;
-  background-image: url("../../images/features-list-imgsecond.png");
+  background-image: url("../images/features-list-imgsecond.png");
   display: inline-block;
 }
 .features-list-item-third::before {
@@ -637,7 +637,7 @@ body {
   width: 270px;
   height: 120px;
   border-radius: 4px;
-  background-image: url("../../images/features-list-imgthird.png");
+  background-image: url("../images/features-list-imgthird.png");
   display: inline-block;
 }
 .features-list-item-fourth::before {
@@ -645,7 +645,7 @@ body {
   width: 270px;
   height: 120px;
   border-radius: 4px;
-  background-image: url("../../images/features-list-imgfourth.png");
+  background-image: url("../images/features-list-imgfourth.png");
   display: inline-block;
 }
 

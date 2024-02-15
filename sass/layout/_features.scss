@@ -27,7 +27,7 @@
         width: 270px;
         height: 120px;
         border-radius: 4px;
-        background-image: url('../../images/features-list-imgfirst.png');
+        background-image: url('../images/features-list-imgfirst.png');
         display: inline-block;
     }
     &-item-second::before{
@@ -35,7 +35,7 @@
         width: 270px;
         height: 120px;
         border-radius: 4px;
-        background-image: url('../../images/features-list-imgsecond.png');
+        background-image: url('../images/features-list-imgsecond.png');
         display: inline-block;
     }    
     &-item-third::before{
@@ -43,7 +43,7 @@
         width: 270px;
         height: 120px;
         border-radius: 4px;
-        background-image: url('../../images/features-list-imgthird.png');
+        background-image: url('../images/features-list-imgthird.png');
         display: inline-block;
     }
     &-item-fourth::before{
@@ -51,7 +51,7 @@
         width: 270px;
         height: 120px;
         border-radius: 4px;
-        background-image: url('../../images/features-list-imgfourth.png');
+        background-image: url('../images/features-list-imgfourth.png');
         display: inline-block;
     }    
 }
