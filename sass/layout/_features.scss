@@ -1,58 +1,62 @@
+
 .section-features{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding: 60px 0;
+    @include desc(1200px){
+        padding: 94px 0;
+    }
 }
 
 .features-list{
     display: flex;
+    flex-direction: column;
     gap: 30px;
+    @include tab(768px){
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
     &-title{
         font-weight: 700;
         line-height: 1.1;
         letter-spacing: 0.03em;
-        text-align: left;
         color: $menu-nav;
         margin-bottom: 10px;
         margin-top: 30px;
+        text-align: center;
+        @include tab(768px){
+            text-align: left;
+        }
     }
     &-desc{
         font-weight: 400;
         line-height: 1.7;
         letter-spacing: 0.03em;
-        text-align: left;
         color: $address;
+        max-width: 450px;
+        @include tab(768px) {
+            max-width: 354px;
+            text-align: left;
+        }
+        @include desc(1200px) {
+            max-width: 270px;
+        }
     }
-    &-item-first::before{
-        content: "";
-        width: 270px;
-        height: 120px;
-        border-radius: 4px;
-        background-image: url('../images/features-list-imgfirst.png');
-        display: inline-block;
+    .features-list-item {
+        @include tab(768px){
+            flex-basis: calc((100% - 30px) / 2);
+        }
+        @include tab(1200px){
+            flex-basis: calc((100% - 90px) / 4);
+        }
     }
-    &-item-second::before{
-        content: "";
-        width: 270px;
+    .features-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 120px;
+        background-color: rgba(245, 244, 250, 1);
         border-radius: 4px;
-        background-image: url('../images/features-list-imgsecond.png');
-        display: inline-block;
-    }    
-    &-item-third::before{
-        content: "";
-        width: 270px;
-        height: 120px;
-        border-radius: 4px;
-        background-image: url('../images/features-list-imgthird.png');
-        display: inline-block;
     }
-    &-item-fourth::before{
-        content: "";
-        width: 270px;
-        height: 120px;
-        border-radius: 4px;
-        background-image: url('../images/features-list-imgfourth.png');
-        display: inline-block;
-    }    
 }
+    
+
 

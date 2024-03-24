@@ -1,16 +1,24 @@
 footer{
     background-color: $button-background;
     padding: 60px 0;
+    text-align: center;
+    @include desc(1200px){
+        text-align: left;
+    }
 }
 
 .footer-logo{
     font-family: Raleway;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 28px;
     letter-spacing: 0.03em;
     text-align: left;
     color: $logo-first;
+    @include desc(1200px){
+        font-size: 26px;
+        line-height: 1.2;
+    }
 }
 
 .footer-studio{
@@ -39,8 +47,33 @@ a[href^="https"]{
 
 .footer-wrap{
     display: flex;
-    gap: 70px;
+    flex-direction: column;
+    gap: 60px;
+    @include desc(1200px){
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
+
+.footer-tab-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    @include tab(768px){
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    @include desc(1200px){
+        gap: 70px;
+    }
+}
+
+
+
+
+// 
 
 .join-wrap-title{
     color: rgba(255, 255, 255, 1);
@@ -48,10 +81,13 @@ a[href^="https"]{
     font-weight: 700;
     line-height: 16px;
     letter-spacing: 0.03em;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     margin-bottom: 20px;
     margin-top: 12px;
+    @include desc(1200px){
+        text-align: left;
+    }
 }
 
 .join-list{
@@ -76,3 +112,5 @@ a[href^="https"]{
         fill: currentColor;
     }
 }
+
+
