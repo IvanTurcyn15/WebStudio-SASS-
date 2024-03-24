@@ -1,19 +1,22 @@
 .section-team{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding: 60px 0;
     background-color: $second-page-button-background;
+    @include desc(1200px){
+        padding: 94px 0;
+    }
     &-title{
-        font-size: 36px;
+        font-size: 28px;
         font-weight: 700;
-        line-height: 1.2;
+        line-height: 33px;
         letter-spacing: 0.03em;
         text-align: center;
         color: $menu-nav;
-        margin-bottom: 50px;
-    }
-    &-wrap{
-        display: flex;
-        justify-content: space-around;
+        margin-bottom: 30px;
+        @include desc(1200px){
+            font-size: 36px;
+            line-height: 1.2;
+            margin-bottom: 50px;
+        }
     }
 }
 
@@ -21,11 +24,22 @@
 
 .team-list{
     display: flex;
+    flex-direction: column;
     gap: 30px;
+    @include tab(768px){
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
     &-item{
         border-radius: 0px 0px 4px 4px;
         box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
         background-color: $head-color;
+        @include tab(768px){
+            flex-basis: calc((100% - 30px) / 2);
+        }
+        @include desc(1200px){
+            flex-basis: calc((100% - 90px) / 4);
+        }
     }
     &-info{
         margin-top: 30px;
