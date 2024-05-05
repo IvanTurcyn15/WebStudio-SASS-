@@ -10,7 +10,7 @@
             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
             url(../images/2x-mob-hero-bg.jpg);
         }
-        @include retina(2,192dpi,2dppx) {
+        @include retina(3,288dpi,3dppx) {
             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
             url(../images/3x-mob-hero-bg.jpg);
         }
@@ -22,7 +22,7 @@
                 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
                 url(../images/2x-tab-hero-bg.jpg);
             }
-            @include retina(2,192dpi,2dppx) {
+            @include retina(3,288dpi,3dppx) {
                 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
                 url(../images/3x-tab-hero-bg.jpg);
             }
@@ -36,7 +36,7 @@
                 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
                 url(../images/2x-desc-hero-bg.jpg);
             }
-            @include retina(2,192dpi,2dppx) {
+            @include retina(3,288dpi,3dppx) {
                 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
                 url(../images/3x-desc-hero-bg.jpg);
             }
