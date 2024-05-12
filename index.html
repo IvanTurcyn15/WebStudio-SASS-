@@ -149,9 +149,54 @@
             <div class="container">
             <h3 class="section-work-title">Чим ми займаємося</h3>
             <ul class="work-list">
-                <li class="work-list-item"><div class="work-list-wrap"><img src="./images/work_list_imgfirst.jpg" alt="Зображення" class="work-list-img"><p class="work-list-desc">Десктопні додатки</p></div></li>
-                <li class="work-list-item"><div class="work-list-wrap"><img src="./images/work_list_imgsecond.jpg" alt="Зображення" class="work-list-img"><p class="work-list-desc">Мобільні додатки</p></div></li>
-                <li class="work-list-item"><div class="work-list-wrap"><img src="./images/work_list_imgthird.jpg" alt="Зображення" class="work-list-img"><p class="work-list-desc">Дизайнерські рішення</p></div></li>
+                <li class="work-list-item">
+                    <div class="work-list-wrap">
+                        <picture>
+                            <source media="(min-width:1199px)"
+                            srcset="./images/work_list_imgfirst.webp 1x, ./images/2x-desc-work-first.webp 2x, ./images/3x-desc-work-first.webp 3x"
+                            type="image/webp"
+                            />
+                            <source media="(min-width:1199px)"
+                            srcset="./images/work_list_imgfirst.jpg 1x, ./images/2x-desc-work-first.jpg 2x, ./images/3x-desc-work-first.jpg 3x"
+                            type="image/jpeg"
+                            />
+                            <img src="./images/work_list_imgfirst.jpg" alt="Зображення" class="work-list-img">
+                        </picture>
+                        <p class="work-list-desc">Десктопні додатки</p>
+                    </div>
+                </li>
+                <li class="work-list-item">
+                    <div class="work-list-wrap">
+                        <picture>
+                            <source media="(min-width:1199px)"
+                            srcset="./images/work_list_imgsecond.webp 1x, ./images/2x-desc-work-second.webp 2x, ./images/3x-desc-work-second.webp 3x"
+                            type="image/webp"
+                            />
+                            <source media="(min-width:1199px)"
+                            srcset="./images/work_list_imgsecond.jpg 1x, ./images/2x-desc-work-second.jpg 2x, ./images/3x-desc-work-second.jpg 3x"
+                            type="image/jpeg"
+                            />
+                            <img src="./images/work_list_imgsecond.jpg" alt="Зображення" class="work-list-img">
+                        </picture>
+                        <p class="work-list-desc">Мобільні додатки</p>
+                    </div>
+                </li>
+                <li class="work-list-item">
+                    <div class="work-list-wrap">
+                        <picture>
+                            <source media="(min-width:1199px)"
+                            srcset="./images/work_list_imgthird.webp 1x, ./images/2x-desc-work-third.webp 2x, ./images/3x-desc-work-third.webp 3x"
+                            type="image/webp"
+                            />
+                            <source media="(min-width:1199px)"
+                            srcset="./images/work_list_imgthird.jpg 1x, ./images/2x-desc-work-third.jpg 2x, ./images/3x-desc-work-third.jpg 3x"
+                            type="image/jpeg"
+                            />
+                            <img src="./images/work_list_imgthird.jpg" alt="Зображення" class="work-list-img">
+                        </picture>
+                        <p class="work-list-desc">Дизайнерські рішення</p>
+                    </div>
+                </li>
             </ul>
         </div>
         </section>
@@ -162,7 +207,33 @@
             <div class="section-team-wrap">
 <ul class="team-list">
     <li class="team-list-item">
-        <img src="./images/team-list-imgfirst.jpg" alt="Зображення" class="team-list-img"/>
+        <picture>
+            <source media="(min-width:1199px)"
+            srcset="./images/team-list-imgfirst.webp 1x, ./images/2x-desc-team-first.webp 2x, ./images/3x-desc-team-first.webp 3x"
+            type="image/webp"
+            />
+            <source media="(min-width:1199px)"
+            srcset="./images/team-list-imgfirst.jpg 1x, ./images/2x-desc-team-first.jpg 2x, ./images/3x-desc-team-first.jpg 3x"
+            type="image/jpeg"
+            />
+            <source media="(min-width:767px)"
+            srcset="./images/tab-team-first.webp 1x, ./images/2x-tab-team-first.webp 2x, ./images/3x-tab-team-first.webp 3x"
+            type="image/webp"
+            />
+            <source media="(min-width:767px)"
+            srcset="./images/tab-team-first.jpg 1x, ./images/2x-tab-team-first.jpg 2x, ./images/3x-tab-team-first.jpg 3x"
+            type="image/jpeg"
+            />
+            <source media="(max-width:767px)"
+            srcset="./images/mob-team-first.webp 1x, ./images/2x-mob-team-first.webp 2x, ./images/3x-mob-team-first.webp 3x"
+            type="image/webp"
+            />
+            <source media="(max-width:767px)"
+            srcset="./images/mob-team-first.jpg 1x, ./images/2x-mob-team-first.jpg 2x, ./images/3x-mob-team-first.jpg 3x"
+            type="image/jpeg"
+            />
+            <img src="./images/mob-team-first.jpg" alt="Зображення" class="team-list-img"/>
+        </picture>
         <div class="team-list-info">
             <h5 class="team-list-title">Ігор Дем'яненко</h5>
             <p class="team-list-desc">
@@ -201,7 +272,33 @@
         </ul>
     </li>
     <li class="team-list-item">
-        <img src="./images/team-list-imgsecond.jpg" alt="Зображення" class="team-list-img"/>
+        <picture>
+            <source media="(min-width:1199px)"
+            srcset="./images/team-list-imgsecond.webp 1x, ./images/2x-desc-team-second.webp 2x, ./images/3x-desc-team-second.webp 3x"
+            type="image/webp"
+            />
+            <source media="(min-width:1199px)"
+            srcset="./images/team-list-imgsecond.jpg 1x, ./images/2x-desc-team-second.jpg 2x, ./images/3x-desc-team-second.jpg 3x"
+            type="image/jpeg"
+            />
+            <source media="(min-width:767px)"
+            srcset="./images/tab-team-second.webp 1x, ./images/2x-tab-team-second.webp 2x, ./images/3x-tab-team-second.webp 3x"
+            type="image/webp"
+            />
+            <source media="(min-width:767px)"
+            srcset="./images/tab-team-second.jpg 1x, ./images/2x-tab-team-second.jpg 2x, ./images/3x-tab-team-second.jpg 3x"
+            type="image/jpeg"
+            />
+            <source media="(max-width:767px)"
+            srcset="./images/mob-team-second.webp 1x, ./images/2x-mob-team-second.webp 2x, ./images/3x-mob-team-second.webp 3x"
+            type="image/webp"
+            />
+            <source media="(max-width:767px)"
+            srcset="./images/mob-team-second.jpg 1x, ./images/2x-mob-team-second.jpg 2x, ./images/3x-mob-team-second.jpg 3x"
+            type="image/jpeg"
+            />
+            <img src="./images/mob-team-second.jpg" alt="Зображення" class="team-list-img"/>
+        </picture>
         <div class="team-list-info">
             <h5 class="team-list-title">Ольга Рєпіна</h5>
             <p class="team-list-desc">
@@ -240,7 +337,33 @@
         </ul>
     </li>
     <li class="team-list-item">
-        <img src="./images/team-list-imgthird.jpg" alt="Зображення" class="team-list-img"/>
+        <picture>
+            <source media="(min-width:1199px)"
+            srcset="./images/team-list-imgthird.webp 1x, ./images/2x-desc-team-third.webp 2x, ./images/3x-desc-team-third.webp 3x"
+            type="image/webp"
+            />
+            <source media="(min-width:1199px)"
+            srcset="./images/team-list-imgthird.jpg 1x, ./images/2x-desc-team-third.jpg 2x, ./images/3x-desc-team-third.jpg 3x"
+            type="image/jpeg"
+            />
+            <source media="(min-width:767px)"
+            srcset="./images/tab-team-third.webp 1x, ./images/2x-tab-team-third.webp 2x, ./images/3x-tab-team-third.webp 3x"
+            type="image/webp"
+            />
+            <source media="(min-width:767px)"
+            srcset="./images/tab-team-third.jpg 1x, ./images/2x-tab-team-third.jpg 2x, ./images/3x-tab-team-third.jpg 3x"
+            type="image/jpeg"
+            />
+            <source media="(max-width:767px)"
+            srcset="./images/mob-team-third.webp 1x, ./images/2x-mob-team-third.webp 2x, ./images/3x-mob-team-third.webp 3x"
+            type="image/webp"
+            />
+            <source media="(max-width:767px)"
+            srcset="./images/mob-team-third.jpg 1x, ./images/2x-mob-team-third.jpg 2x, ./images/3x-mob-team-third.jpg 3x"
+            type="image/jpeg"
+            />
+            <img src="./images/mob-team-third.jpg" alt="Зображення" class="team-list-img"/>
+        </picture>
         <div class="team-list-info">
             <h5 class="team-list-title">Микола Тарасов</h5>
             <p class="team-list-desc">
@@ -279,7 +402,33 @@
         </ul>
     </li>
     <li class="team-list-item">
-        <img src="./images/team-list-imgfourth.jpg" alt="Зображення" class="team-list-img"/>
+        <picture>
+            <source media="(min-width:1199px)"
+            srcset="./images/team-list-imgfourth.webp 1x, ./images/2x-desc-team-fourth.webp 2x, ./images/3x-desc-team-fourth.webp 3x"
+            type="image/webp"
+            />
+            <source media="(min-width:1199px)"
+            srcset="./images/team-list-imgfourth.jpg 1x, ./images/2x-desc-team-fourth.jpg 2x, ./images/3x-desc-team-fourth.jpg 3x"
+            type="image/jpeg"
+            />
+            <source media="(min-width:767px)"
+            srcset="./images/tab-team-fourth.webp 1x, ./images/2x-tab-team-fourth.webp 2x, ./images/3x-tab-team-fourth.webp 3x"
+            type="image/webp"
+            />
+            <source media="(min-width:767px)"
+            srcset="./images/tab-team-fourth.jpg 1x, ./images/2x-tab-team-fourth.jpg 2x, ./images/3x-tab-team-fourth.jpg 3x"
+            type="image/jpeg"
+            />
+            <source media="(max-width:767px)"
+            srcset="./images/mob-team-fourth.webp 1x, ./images/2x-mob-team-fourth.webp 2x, ./images/3x-mob-team-fourth.webp 3x"
+            type="image/webp"
+            />
+            <source media="(max-width:767px)"
+            srcset="./images/mob-team-fourth.jpg 1x, ./images/2x-mob-team-fourth.jpg 2x, ./images/3x-mob-team-fourth.jpg 3x"
+            type="image/jpeg"
+            />
+            <img src="./images/mob-team-fourth.jpg" alt="Зображення" class="team-list-img"/>
+        </picture>
         <div class="team-list-info">
             <h5 class="team-list-title">Михайло Єрмаков</h5>
             <p class="team-list-desc">

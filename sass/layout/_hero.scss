@@ -1,6 +1,7 @@
 .section-hero{
         padding: 118px 0;
         background-color: $button-background;
+        // @include background-image("../images/mob-hero-bg.webp", "../images/mob-hero-bg.jpg");
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(../images/mob-hero-bg.jpg);
         background-repeat: no-repeat;

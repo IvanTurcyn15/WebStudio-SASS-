@@ -18,3 +18,10 @@
       @content;
     }
 }
+
+@mixin background-image($webp,$fallback){
+    @supports (background-image:url("#{webp}")){
+        background-image:url("#{webp}");
+    }
+    background-image: url("#{$fallback}");
+}
