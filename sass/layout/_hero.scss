@@ -1,45 +1,35 @@
 .section-hero{
         padding: 118px 0;
         background-color: $button-background;
-        // @include background-image("../images/mob-hero-bg.webp", "../images/mob-hero-bg.jpg");
-        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/mob-hero-bg.jpg);
+        @include background-image("../images/mob-hero-bg.webp", "../images/mob-hero-bg.jpg", $gradient);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         @include retina(2,192dpi,2dppx) {
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../images/2x-mob-hero-bg.jpg);
+            @include background-image("../images/2x-mob-hero-bg.webp", "../images/2x-mob-hero-bg.jpg", $gradient);
         }
         @include retina(3,288dpi,3dppx) {
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../images/3x-mob-hero-bg.jpg);
+            @include background-image("../images/3x-mob-hero-bg.webp", "../images/3x-mob-hero-bg.jpg", $gradient);
         }
 
         @include tab(768px){
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../images/tab-hero-bg.jpg);
+            @include background-image("../images/tab-hero-bg.webp", "../images/tab-hero-bg.jpg", $gradient);
             @include retina(2,192dpi,2dppx) {
-                background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                url(../images/2x-tab-hero-bg.jpg);
+                @include background-image("../images/2x-tab-hero-bg.webp", "../images/2x-tab-hero-bg.jpg", $gradient);
             }
             @include retina(3,288dpi,3dppx) {
-                background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                url(../images/3x-tab-hero-bg.jpg);
+                @include background-image("../images/3x-tab-hero-bg.webp", "../images/3x-tab-hero-bg.jpg", $gradient);
             }
         }
 
         @include desc(1200px){
             padding: 200px 0;
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../images/sectionhero-background.jpg);
+            @include background-image("../images/sectionhero-background.webp", "../images/sectionhero-background.jpg", $gradient);
             @include retina(2,192dpi,2dppx) {
-                background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                url(../images/2x-desc-hero-bg.jpg);
+                @include background-image("../images/2x-desc-hero-bg.webp", "../images/2x-desc-hero-bg.jpg", $gradient);
             }
             @include retina(3,288dpi,3dppx) {
-                background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                url(../images/3x-desc-hero-bg.jpg);
+                @include background-image("../images/3x-desc-hero-bg.webp", "../images/3x-desc-hero-bg.jpg", $gradient);
             }
         } 
         

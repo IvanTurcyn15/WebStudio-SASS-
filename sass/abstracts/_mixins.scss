@@ -19,9 +19,9 @@
     }
 }
 
-@mixin background-image($webp,$fallback){
-    @supports (background-image:url("#{webp}")){
-        background-image:url("#{webp}");
+@mixin background-image($webp,$fallback,$gradient){
+    @supports (background-image:url("#{$webp}")){
+        background-image:$gradient,url("#{$webp}");
     }
-    background-image: url("#{$fallback}");
+    background-image:$gradient,url("#{$fallback}");
 }
